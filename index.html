@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Climbing Shoe Converter</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Climbing Shoe Converter</h1>
+    <!-- input form container -->
+    <div class="container">
+        <div class="shoe-input">
+            <div class="options">
+                <p>How big are yo feet?
+                    <i class="fas fa-shoe-prints"></i>
+
+                    <!-- dropdown select -->
+                    <select id="select-size">
+                        <option value="0">Shoe Size</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </p>
+                <p>What fit would you like?
+                    <select id="select-fit">
+                        <option value="0">Desired Fit</option>
+                        <option value="comfort">Comfort</option>
+                        <option value="trad">Traditional</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="snug">Snug</option>
+                        <option value="bouldering">Bouldering</option>
+                    </select>
+                </p>
+            </div>
+
+            <!-- shoe brand button container -->
+            <div class="btn-container">
+                <button class="shoe-btn" id="brand-1" type="button">
+                    shoe brand 1
+                </button>
+                <button class="shoe-btn" id="brand-2" type="button">
+                    shoe brand 2
+                </button>
+                <button class="shoe-btn" id="brand-3" type="button">
+                    shoe brand 3
+                </button>
+                <button class="shoe-btn" id="brand-4" type="button">
+                    shoe brand 4
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="results">
+            <p>Your climbing shoe size is...</p>
+            <span id="climb-size">*calculated size*</span>
+        </div>
+    </div>
+    <!-- results container -->
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
